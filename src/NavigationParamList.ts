@@ -1,9 +1,5 @@
-/**
- * A record of the navigation params for each route in your app.
- */
 export type MainStackParamList = {
-  One?: {};
-  Two: {
-    message: string;
-  };
+  One: { message: string };  // ScreenOne can accept a message parameter
+  Two: { message: string };  // ScreenTwo can accept a message parameter
+  Three: { message: string };  // ScreenThree can accept a message parameter
 };
